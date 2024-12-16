@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Hjemmeside</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Velkommen til min hjemmeside!</h1>
+    </header>
+    <nav>
+        <a href="#home">Hjem</a>
+        <a href="#about">Om os</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <section id="home">
+        <h2>Hjem</h2>
+        <p>Dette er forsiden af min hjemmeside. Her finder du vigtig information.</p>
+    </section>
+    <section id="about">
+        <h2>Om os</h2>
+        <p>Vi er en virksomhed dedikeret til at skabe fantastiske oplevelser online.</p>
+        <button class="button" onclick="alert('Tak fordi du klikkede!')">Klik her</button>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Du kan kontakte os via e-mail på <a href="mailto:kontakt@minhjemmeside.dk">kontakt@minhjemmeside.dk</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Min Hjemmeside. Alle rettigheder forbeholdes.</p>
+    </footer>
+</body>
+</html>
